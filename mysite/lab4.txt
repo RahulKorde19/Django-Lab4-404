@@ -1,0 +1,50 @@
+To run code: python manage.py runserver
+
+1. 
+
+2. Unable to connect
+
+Firefox can’t establish a connection to the server at 127.0.0.1:8000.
+
+    The site could be temporarily unavailable or too busy. Try again in a few moments.
+    If you are unable to load any pages, check your computer’s network connection.
+    If your computer or network is protected by a firewall or proxy, make sure that Firefox is permitted to access the web.
+
+
+3.
+/ :- Page not found (404)
+Request Method:	GET
+Request URL:	http://127.0.0.1:8000/
+Using the URLconf defined in mysite.urls, Django tried these URL patterns, in this order:
+polls/
+admin/
+The empty path didn’t match any of these.
+You’re seeing this error because you have DEBUG = True in your Django settings file. Change that to False, and Django will display a standard 404 page.
+
+/polls :- Hello, world. You're at the polls index.
+
+
+4. Django's way of making chanfges to the Database 
+while making changes to your models like deleting a model,
+adding a field and more. Used to change models over time
+
+5. Authentication & Authorization for Django models
+we also get to see the polls CHOICES & QUESTIONS at the 
+site administration
+
+6.
+/polls/38 - You're looking at question 38.
+/polls/38/results - You're looking at the results of question 38.
+/polls/38/vote - You're voting on question 38.
+
+7.
+One change to a single line of code will need to be replaced 
+in other places where it is written.
+changing somehting in the code in HTML , one will have to change it to hardcode 
+again. we can use mehtid to use it for and change it instead ofo changin 
+all the pages which depend on t eg: 150 pages
+
+8.
+to reduce SMELL in the code and make sure that one doesn't use
+repetitive code again in seeral views. Helps generate list 
+and details views of objects
